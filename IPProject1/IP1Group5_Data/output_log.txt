@@ -1,0 +1,116 @@
+Initialize engine version: 4.6.3f1 (4753d8b6ef2b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970M   (ID=0x13d8)
+    Vendor:   NVIDIA
+    VRAM:     2991 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.109 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 3.590805 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 248.
+Total: 0.768445 ms (FindLiveObjects: 0.007487 ms CreateObjectMapping: 0.006305 ms MarkObjects: 0.121374 ms  DeleteObjects: 0.268758 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LevelSelector+<DelayLoadLevel1>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+LevelSelector:LoadMainLevel()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.InvokableCallList:Invoke(Object[])
+UnityEngine.Events.UnityEventBase:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.UI.Button:OnPointerClick(PointerEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.461461 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.513478 ms (FindLiveObjects: 0.009851 ms CreateObjectMapping: 0.007093 ms MarkObjects: 0.135561 ms  DeleteObjects: 0.005911 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoneOnTouchAnimal.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player achieved requirements
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 0.384616 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 165.
+Total: 3.051712 ms (FindLiveObjects: 0.005911 ms CreateObjectMapping: 0.008275 ms MarkObjects: 0.117828 ms  DeleteObjects: 2.604831 ms)
+
